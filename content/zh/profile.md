@@ -2,7 +2,7 @@
 name: 刘政远
 nameAlt: Liu Zhengyuan
 headline: 化学出身的工程师。做 VR、三维重建，也做数据和 LLM 系统。
-location: 吉林 · 东京
+location: 吉林 · 长春
 status: 2025 届应用化学本科 · 备考大学院 · 与东京研发团队持续合作
 photo: assets/portrait.jpg
 photoAlt: 刘政远肖像
