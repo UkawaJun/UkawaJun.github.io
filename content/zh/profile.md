@@ -1,13 +1,13 @@
 ---
 name: 刘政远
 nameAlt: Liu Zhengyuan
-headline: 化学出身的工程师。做 VR、三维重建，也做数据和 LLM 系统。
+headline: 本科应用化学。数据分析，数学建模，嵌入式开发，VR系统开发，GO/KEGG药理学分析。
 location: 吉林 · 长春
-status: 2025 届应用化学本科 · 备考大学院 · 与东京研发团队持续合作
+status: 2025 届应用化学本科 · 备考研究生 
 photo: assets/portrait.jpg
 photoAlt: 刘政远肖像
 link.0: mail | 邮箱 | mailto:2106188898@qq.com
-link.1: github | GitHub | https://github.com/UukawaJun
+link.1: github | GitHub | https://github.com/UkawaJun
 link.2: bilibili | 项目视频 | https://space.bilibili.com/321615514
 ---
 
