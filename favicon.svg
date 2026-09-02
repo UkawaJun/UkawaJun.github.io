@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" fill="#9c3b2e"/>
+  <text
+    x="16"
+    y="17"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Noto Serif SC, Songti SC, STSong, serif"
+    font-size="21"
+    font-weight="600"
+    fill="#f3eee4"
+  >刘</text>
+</svg>
