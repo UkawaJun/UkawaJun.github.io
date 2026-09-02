@@ -8,7 +8,7 @@
 你的用户名.github.io
 ```
 
-例如 `UukawaJun.github.io` → 打开 [https://UukawaJun.github.io](https://UukawaJun.github.io)
+例如 `UukawaJun.github.io` → 打开 [https://UkawaJun.github.io](https://UukawaJun.github.io)
 
 ## 第一次上传
 
