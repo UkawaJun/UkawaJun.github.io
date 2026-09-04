@@ -1,38 +1,19 @@
 ---
 name: Liu Zhengyuan
 nameAlt: 刘政远
-headline: Engineer with a chemistry degree — VR, 3D reconstruction, data and LLM systems.
-location: Jilin · Tokyo
-status: B.S. Applied Chemistry, 2025 · Preparing for graduate school · Ongoing Tokyo R&D collaboration
+headline: B.Sc. Applied Chemistry. Data analysis, mathematical modeling, embedded systems, VR, GO/KEGG pharmacology.
+location: Jilin, Changchun
+status: Class of 2025 · preparing for the CS graduate entrance exam
 photo: assets/portrait.jpg
 photoAlt: Portrait of Liu Zhengyuan
 link.0: mail | Email | mailto:2106188898@qq.com
-link.1: github | GitHub | https://github.com/UukawaJun
-link.2: bilibili | Project videos | https://space.bilibili.com/321615514
+link.1: github | Github | https://github.com/UkawaJun
+link.2: bilibili | Bilibili | https://space.bilibili.com/321615514
+link.3: youtube | YouTube | #
 ---
 
-I studied applied chemistry while running a VR lab, building embedded 3D reconstruction, and later joining a Tokyo team on LLM search over Japanese graduate-school materials. My thesis used network pharmacology and docking on star-anise flavonoids against gastric-cancer targets.
+B.Sc. Applied Chemistry, Zhengzhou University of Technology. At school I followed the VR lab on contests and commissioned projects. Feb–Jun 2026: intern at Black AI (UTokyo SennPAI) as AI application engineer, on backend collection and website-structure modelling for Japanese master’s-exam materials. Now in Changchun, Jilin, preparing for the CS graduate entrance exam. Thesis 90.5, third in the major.
 
----
-id: tokyo
-kicker: Tokyo
-title: Graduate-school search agent
----
+Skills: Python C++ C# Blender Godot IdeaXR Cytoscape OpenGL 4 graphics
 
-Raised high-value file recall from ~20% to over 80% with an LLM pipeline.
-
----
-id: thesis
-kicker: Thesis
-title: 90.5 · 3rd in major
----
-
-Star-anise flavonoids vs gastric cancer. Mar–Jul 2025.
-
----
-id: lab
-kicker: Lab
-title: VR Mechanic
----
-
-Shaft-assembly simulation, Jun–Dec 2024, now used on campus.
+Aim: to bring a chemist’s view of the natural sciences into computer science, and to keep working toward network pharmacology, embedded systems, and cognitive science.

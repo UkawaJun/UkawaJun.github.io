@@ -1,36 +1,25 @@
 #!/usr/bin/env python3
-"""Local preview server that mimics GitHub Pages (404.html fallback)."""
-import http.server
-import os
-import socketserver
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-os.chdir(ROOT)
+ASSET_PREFIXES = ("/assets/", "/content/", "/vendor/", "/favicon", "/.nojekyll")
 
 
-class Handler(http.server.SimpleHTTPRequestHandler):
-    extensions_map = {
-        **http.server.SimpleHTTPRequestHandler.extensions_map,
-        ".md": "text/plain; charset=utf-8",
-        ".json": "application/json; charset=utf-8",
-    }
-
-    def end_headers(self):
-        self.send_header("Cache-Control", "no-store")
-        super().end_headers()
+class Handler(SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory=str(ROOT), **kwargs)
 
     def do_GET(self):
-        path = Path(self.translate_path(self.path))
-        if path.is_file():
-            return super().do_GET()
-        fallback = ROOT / "404.html"
-        if fallback.exists() and not Path(self.path.lstrip("/")).suffix:
-            self.path = "/404.html"
-        return super().do_GET()
+        raw = self.path.split("?", 1)[0].split("#", 1)[0]
+        fs = ROOT / raw.lstrip("/")
+        if raw != "/" and not fs.exists() and not raw.startswith(ASSET_PREFIXES):
+            self.path = "/index.html"
+        return SimpleHTTPRequestHandler.do_GET(self)
+
+    def log_message(self, fmt, *args):
+        return
 
 
-socketserver.TCPServer.allow_reuse_address = True
-with socketserver.TCPServer(("0.0.0.0", 8080), Handler) as httpd:
-    print("serving", ROOT, "on 8080", flush=True)
-    httpd.serve_forever()
+if __name__ == "__main__":
+    ThreadingHTTPServer(("0.0.0.0", 8080), Handler).serve_forever()

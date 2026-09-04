@@ -1,23 +1,34 @@
 ---
 id: tokyo-rd
-org: 東京R&D協働
-role: データとLLM
-period: 2023.09 — 現在
-location: 東京
-tags: LLM | データ洗浄 | 検索
+org: Black AI（東京大学 SennPAI）
+role: AI 応用研究開発エンジニア
+period: 2026.02 — 2026.06
+location: リモート / 長春
+tags: Agent | グラフ | クローラ | RAG
+summary: 日本の修士試験資料のバックエンド収集。サイトをグラフ化し、日次更新。
+images: assets/work/sennpai-tree-overview.png | 大学サイト内部の構造モデリング
 ---
 
-- 日本の大学院入試データの管理と洗浄を担当し、LLMによる試験資料の自動検索エージェントに参加。
-- 高価値ファイルの識別率を約20%から80%超へ。二日・千円未満で八百校以上をカバー。
+- 約 860 の大学院サイトから入学日、試験、費用、外国人向け手続きを収集。
+- ページをグラフにし、DFS、モデルで剪定。日常は Selenium。初回は数百元、以後 0.2–1 元/日。
+- 六月、入試準備のため離脱。
+
+---
+id: books-outsource
+org: 鄭州 EC 外注チーム
+role: ソフトウェア / 納品
+period: 2025.07 — 2025.11
+location: 鄭州
+tags: Requests | Selenium
+summary: 選書台を納品。多抓魚と孔夫子で売れる本を自動選別。
+---
 
 ---
 id: vr-lab
-org: 鄭州工程技術学院 VR実験室
-role: 実験室TA / 仮想シミュレーション責任者
-period: 2023.09 — 2024.12
+org: 大学 VR 研究室
+role: 助教 / チームリーダー
+period: 2023.11 — 2024.12
 location: 鄭州
-tags: VR | 教育 | IdeaXR
+tags: VR | Pico4 | IdeaXR
+summary: 一年間の助教。Pico4、Quest、プロジェクタ。競技チームを率いた。
 ---
-
-- 約一年、教員の実験室助手として VR 機器を保守し、シミュレーション開発を率いた。
-- 上海マンヘンの産学連携：VRメカニッックと硫酸実験、IdeaXR 入門教材。

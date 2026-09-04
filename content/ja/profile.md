@@ -1,38 +1,19 @@
 ---
 name: 劉政遠
 nameAlt: Liu Zhengyuan
-headline: 化学出身のエンジニア。VR・三次元再構成と、データ／LLMシステムを横断する。
-location: 吉林 · 東京
-status: 応用化学 学士（2025）· 大学院進学を準備中 · 東京の研究開発チームと協働継続
+headline: 応用化学学士。データ分析、数学モデリング、組込み、VR、GO/KEGG 薬理分析。
+location: 吉林・長春
+status: 2025 年卒業 · 情報系大学院入試を準備中
 photo: assets/portrait.jpg
 photoAlt: 劉政遠の肖像
 link.0: mail | メール | mailto:2106188898@qq.com
-link.1: github | GitHub | https://github.com/UukawaJun
-link.2: bilibili | プロジェクト動画 | https://space.bilibili.com/321615514
+link.1: github | Github | https://github.com/UkawaJun
+link.2: bilibili | Bilibili | https://space.bilibili.com/321615514
+link.3: youtube | YouTube | #
 ---
 
-学部では応用化学を専攻しながら、VR実験室の運営、組込み、三次元再構成、LLMによる日本の大学院資料の探索まで横断してきました。卒業論文では八角茴香のフラボノイドを、ネットワーク薬理学と分子ドッキングで胃癌標的に対して調べました。
+鄭州工程技術学院・応用化学学士。在学中は VR 研究室に従い、競技と受託課題に参加。2026 年 2–6 月は Black AI（東京大学 SennPAI）で AI 応用研究開発エンジニアとしてインターン、日本の修士試験資料のバックエンド収集とサイト構造のモデリングを担当。現在は吉林・長春で情報系大学院入試を準備。卒論 90.5 点、専攻三位。
 
----
-id: tokyo
-kicker: 東京
-title: 大学院資料の検索エージェント
----
+技能：Python C++ C# Blender Godot IdeaXR Cytoscape OpenGL 4 グラフィックス
 
-LLMで高価値ファイルの識別率を約20%から80%超へ。
-
----
-id: thesis
-kicker: 卒論
-title: 90.5点 · 専攻3位
----
-
-八角茴香フラボノイドと胃癌。2025.03–07。
-
----
-id: lab
-kicker: 実験室
-title: VRメカニッック
----
-
-軸系分解組立の仮想訓練。2024.06–12、学内で運用。
+志：化学という自然科学の見方を計算機科学の研究に入れ、ネットワーク薬学、組込み、認知科学の方向へ進む。

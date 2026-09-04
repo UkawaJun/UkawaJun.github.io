@@ -1,11 +1,31 @@
 ---
-id: thesis-score
-title: Bachelor’s thesis 90.5, 3rd in the major
+id: thesis-excellent
+title: Outstanding undergraduate thesis, class of 2025
 year: 2025.07
 level: University
+image: assets/projects/thesis/ppi.png
 ---
 
+---
+id: computer-25
+title: Provincial 3rd prize, Computer Design Contest
+year: 2025.06
+level: Provincial
+---
 
+---
+id: challenge-a
+title: Provincial 1st prize, Challenge Cup (science A)
+year: 2025.05
+level: Provincial
+---
+
+---
+id: challenge-b
+title: Provincial 3rd prize, Challenge Cup (science B)
+year: 2025.05
+level: Provincial
+---
 
 ---
 id: 3d-nation
@@ -14,34 +34,26 @@ year: 2024.12
 level: National
 ---
 
-
-
 ---
 id: iot-1
-title: 1st prize, Henan IoT Design Contest
+title: 1st prize, Henan Collegiate IoT Design Contest
 year: 2024.11
 level: Provincial
 ---
-
-
 
 ---
 id: mcm-1
-title: 1st prize, provincial CUMCM (mathematical modelling)
+title: Provincial 1st prize, CUMCM
 year: 2024.11
 level: Provincial
 ---
 
-
-
 ---
 id: 3d-prov
-title: Special prize, provincial 3D Digital Design
+title: Provincial special prize, 3D Digital Design
 year: 2024.10
 level: Provincial
 ---
-
-
 
 ---
 id: robot-nation
@@ -50,13 +62,23 @@ year: 2024.08
 level: National
 ---
 
-
-
 ---
-id: epics-1
-title: 1st prize, provincial Engineering Practice & Innovation Contest
-year: 2023.09
+id: computer-24
+title: Provincial 3rd prize, Computer Design Contest
+year: 2024.06
 level: Provincial
 ---
 
+---
+id: mcm-2
+title: Provincial 2nd prize, CUMCM
+year: 2023.11
+level: Provincial
+---
 
+---
+id: epics-1
+title: Provincial 1st prize, Engineering Practice & Innovation Contest
+year: 2023.09
+level: Provincial
+---
