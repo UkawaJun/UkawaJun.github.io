@@ -1,4 +1,4 @@
-# 刘政远履历站 · GitHub Pages
+# 履历站 · GitHub Pages
 
 把压缩包里的文件放到仓库 **根目录**（能直接看到 `index.html`，不要多套一层 `site/`）。
 
